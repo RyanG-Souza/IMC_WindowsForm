@@ -61,7 +61,7 @@ namespace IMC_WindowsForm
                 }
                 else
                 {
-                    lbl_Saude.Text = (" O peso não podem ser 0"); 
+                    lbl_Saude.Text = (" A altura não pode ser 0"); 
                     lbl_Saude.ForeColor = Color.DarkRed;
                 }
                 
