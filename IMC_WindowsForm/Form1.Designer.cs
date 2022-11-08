@@ -38,6 +38,10 @@
             this.txb_Peso = new System.Windows.Forms.TextBox();
             this.lbl_Saude = new System.Windows.Forms.Label();
             this.txb_Resultado = new System.Windows.Forms.TextBox();
+            this.picb_Peso = new System.Windows.Forms.PictureBox();
+            this.picb_Maça = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_Peso)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_Maça)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_Peso
@@ -123,11 +127,34 @@
             this.txb_Resultado.Size = new System.Drawing.Size(112, 22);
             this.txb_Resultado.TabIndex = 9;
             // 
+            // picb_Peso
+            // 
+            this.picb_Peso.Image = global::IMC_WindowsForm.Properties.Resources.download;
+            this.picb_Peso.Location = new System.Drawing.Point(12, 38);
+            this.picb_Peso.Name = "picb_Peso";
+            this.picb_Peso.Size = new System.Drawing.Size(123, 65);
+            this.picb_Peso.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picb_Peso.TabIndex = 11;
+            this.picb_Peso.TabStop = false;
+            // 
+            // picb_Maça
+            // 
+            this.picb_Maça.Image = global::IMC_WindowsForm.Properties.Resources.IMG_1867_1024x1024;
+            this.picb_Maça.InitialImage = ((System.Drawing.Image)(resources.GetObject("picb_Maça.InitialImage")));
+            this.picb_Maça.Location = new System.Drawing.Point(228, 41);
+            this.picb_Maça.Name = "picb_Maça";
+            this.picb_Maça.Size = new System.Drawing.Size(144, 62);
+            this.picb_Maça.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picb_Maça.TabIndex = 10;
+            this.picb_Maça.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 438);
+            this.Controls.Add(this.picb_Peso);
+            this.Controls.Add(this.picb_Maça);
             this.Controls.Add(this.txb_Resultado);
             this.Controls.Add(this.lbl_Saude);
             this.Controls.Add(this.txb_Peso);
@@ -142,6 +169,8 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IMC";
+            ((System.ComponentModel.ISupportInitialize)(this.picb_Peso)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picb_Maça)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,6 +187,8 @@
         private System.Windows.Forms.TextBox txb_Peso;
         private System.Windows.Forms.Label lbl_Saude;
         private System.Windows.Forms.TextBox txb_Resultado;
+        private System.Windows.Forms.PictureBox picb_Maça;
+        private System.Windows.Forms.PictureBox picb_Peso;
     }
 }
 
